@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.generate-btn {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 18px;
+  background-color: goldenrod;
+  color: white;
+  cursor: pointer;
+}
+
+.num-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  background-color: silver;
+}
+
+.lucky-star {
+  background-color: gold;
+}
